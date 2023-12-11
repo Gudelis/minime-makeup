@@ -1,0 +1,46 @@
+.main-header {
+  width: 15%;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 2px solid rgb(224, 110, 148);
+}
+
+.header-logo {
+  margin: 2rem auto;
+  background-image: url("../../assets/logo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 20%;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 25%;
+}
+
+.header-nav button {
+  border: none;
+  background-color: white;
+  font-size: 26px;
+  font-weight: 600;
+  margin: auto;
+  cursor: pointer;
+}
+
+.header-nav button:hover {
+  color: rgb(224, 110, 148);
+  text-decoration: underline;
+}
+
+.socials-wrapper {
+  height: 45%;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+}

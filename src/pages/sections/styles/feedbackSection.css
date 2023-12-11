@@ -1,0 +1,16 @@
+.feedback-section {
+  padding: 20px 40px;
+}
+
+.feedback-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  height: 10%;
+}
+
+.feedback-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
