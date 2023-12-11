@@ -1,0 +1,15 @@
+.feedback-card {
+  box-sizing: content-box;
+  width: 42%;
+  border: 2px solid rgb(224, 110, 148);
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.feedback-card img {
+  width: 86%;
+}

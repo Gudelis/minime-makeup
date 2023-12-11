@@ -1,0 +1,13 @@
+.socials-logo {
+  width: 40%;
+  filter: grayscale(1);
+}
+
+.logo-wrapper img:hover {
+  transition: 350ms;
+  filter: grayscale(0);
+}
+
+.socials-logo a {
+  cursor: pointer;
+}

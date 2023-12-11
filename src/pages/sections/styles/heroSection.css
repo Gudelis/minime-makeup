@@ -1,0 +1,22 @@
+.home-section {
+  display: flex;
+}
+
+.hero-photo {
+  width: 30%;
+  min-width: 30%;
+  margin: 2%;
+  border: 2px rgb(0, 0, 0) solid;
+}
+
+.hero-text-wrapper {
+  margin: 2% 0 2% 5%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text-wrapper h2 {
+  margin-bottom: 24px;
+}
